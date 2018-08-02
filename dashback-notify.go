@@ -43,7 +43,7 @@ func CheckBalance() {
 	}
 	log.Printf("Wallet balance: %d", WalletBalance)
 
-	if WalletBalance < 5 {
+	if WalletBalance < 1 {
 		webhookUrl := "https://hooks.slack.com/services/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"
 
 		//	attachment1 := slack.Attachment{}
